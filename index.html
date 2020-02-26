@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>CloudSense Videoteka</title>
+    <script src="js/main.js">  </script>
+  </head>
+
+<div class="naslov">
+  <header>
+    <h1>Videoteka<h1>
+  </header>
+</div>
+
+<form id="forms">
+  <input type="text" id="movie" placeholder="Naziv filma" >
+  <input type="number" id="moviePrice" min="0" placeholder="Cijena filma">
+
+  <input class="valutaForma" type="button" value = "HRK" readonly>
+
+  <button class="button" type="button" onclick="addRow(); suma(); bill(); sortTable(); clearInput(); invalidInput();">Dodaj Film</button>
+</form>
+</div>
+
+<div>
+    	<table id="moviesTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Naziv filma</th>
+            <th>Cijena filma(kn)</th>
+          </tr>
+        </thead>
+      </table>
+  </div>
+
+  <div>
+    <table id="sumaTable">
+      <thead>
+        <tr>
+          <th>Suma cijena:</th>
+          <th id="suma"><th>
+        </tr>
+        <tr>
+          <th>Popust:</th>
+          <th id="discount"></th>
+        </tr>
+        <tr>
+          <th>Račun:</th>
+          <th id="bill"></th>
+        </tr>
+    </table>
+  </div>
+</html>

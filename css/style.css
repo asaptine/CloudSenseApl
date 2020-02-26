@@ -1,0 +1,84 @@
+
+.naslov {
+  font:  italic 1.2em "Fira Sans", serif;
+  font-size: large;
+  margin: center;
+  text-align:center;
+}
+
+.paragraf {
+  font:  italic 1.2em "Fira Sans", serif;
+}
+
+.button {
+  background-color: lightblue;
+  border-style: hidden;
+  border-radius: 10px;
+  border-color: gray;
+  font:  italic 1.2em "Fira Sans", serif;
+  text-align: center;
+  cursor:pointer;
+}
+
+
+#forms {
+  font:  italic 1.2em "Fira Sans", serif;
+  text-align:center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16px;
+}
+
+.valutaForma {
+  background-color: lightblue;
+  border-style: hidden;
+  border-color: gray;
+  font:  italic 1.2em "Fira Sans", serif;
+
+}
+
+#moviesTable {
+  font:  italic 1.2em "Fira Sans", serif;
+  font-size: large;
+  margin: auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 25px;
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+
+#moviesTable tr {
+  border-top: 1px solid black;
+}
+
+#moviesTable th {
+  background-color: lightblue;
+}
+
+#moviesTable tr:nth-child(even){background-color: #f2f2f2;}
+#moviesTable tr:hover {background-color: #ddd;}
+
+#sumaTable {
+  font:  italic 1.2em "Fira Sans", serif;
+  font-size: small;
+  border-bottom: 1px solid black;
+  margin-top: 50px;
+  width: 20%;
+  text-align: left;
+  margin-left: 75%;
+  border-collapse: collapse;
+}
+
+#sumaTable tr th {
+  padding : 3px;
+  border-top: 1px solid black;
+}
+
+#sumaTable tr:nth-child(even){background-color: #f2f2f2;}
+#sumaTable tr:hover {background-color: #ddd;}
